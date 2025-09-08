@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montagu Slab", serif;
+    font-optical-sizing: auto;
+    background-color: #f5ec9f;
+}
+
+.card {
+    width: 50dvw;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f0f0ee;
+    box-shadow: #b1b1aa 0 0 1px 1px;
+
+}
+
+.card-top {
+    display: flex;
+    background-image: url('./img/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem;
+}
+
+.card-top > img {
+    width: 60px;
+    height: 60px;
+    margin: 3rem auto;
+    border-radius: 50%;
+    background-color: #dddddc;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.social-media {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.description {
+    padding: 0 2rem;
+}
+
+.btn {
+    padding: 2rem;
+}
+
+button {
+    width: 6rem;
+    padding: 8px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.msg {
+    background-color: #d65d06; 
+    border: 0;
+}
+
+.flw {
+    background-color: #dddddc;
+    border: 1px solid #b1b1aa;
+}
