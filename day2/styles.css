@@ -23,7 +23,6 @@ aside{
 .left {
     display: flex;
     justify-content: space-between;
-    border: 2px solid red;
 }
 
 .img-small{
@@ -49,4 +48,23 @@ ul {
 
 .img-large > img {
     width: 100%;
+}
+div>aside{
+    height: 100%;
+    margin: auto;
+}
+.buttons{
+    gap: 10px;;
+    display: flex;
+    margin: 5px;
+    border-radius: 12px;
+}
+.lbtn{
+    background-color: black;
+    color:#15afaf;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
