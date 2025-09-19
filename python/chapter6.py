@@ -52,3 +52,10 @@ def print_scores(a, b):
         print(i, 'The new value of scorei', i + b)
 
 print_scores([67, 68, 72, 71, 69], 10)
+
+def calc_mpg(miles, gallons = 5):
+    mpg = miles/gallons
+    return print(mpg)
+
+calc_mpg(120, 6)
+    
