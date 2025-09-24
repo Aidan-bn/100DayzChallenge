@@ -60,11 +60,36 @@ class FlightTicket:
         print('Passenger', self.passenger, 'departs on flight # ', self.flight_num, 'at', self.time, 'from', self.airport, 'in', self.seat)
 
 passenger_1 = FlightTicket()
-passenger_1.flight_num = input('flight_num: ')
-passenger_1.airport = input('airport: ' )
-passenger_1.gate = input('gate: ')
-passenger_1.time = input('time: ')
-passenger_1.seat = input('seat: ')
-passenger_1.passenger = input('passenger: ')
+# passenger_1.flight_num = input('flight_num: ')
+# passenger_1.airport = input('airport: ' )
+# passenger_1.gate = input('gate: ')
+# passenger_1.time = input('time: ')
+# passenger_1.seat = input('seat: ')
+# passenger_1.passenger = input('passenger: ')
 
-print(passenger_1.print_info())
+# print(passenger_1.print_info())
+
+class Book:
+    def __init__ (self):
+        self.book_id = '5'
+        self.book_author = 'Habayo'
+        self.book_title = 'Marriage Wedding'
+    def book_library(self):
+       print('In our Library, the folloeing Book', self.book_title, 'written by', self.book_author, 'with an ID', self.book_id, 'is no longer available')
+
+book_1 = Book()
+# book_1.book_author = 'Aidan Banteze'
+book_1.book_id = 'A12PL'
+# book_1.book_title = 'The secret of marriage'
+print(book_1.book_library())
+
+class Person:
+    def __init__(self, name):
+        self.name = name
+    def introduce(self):
+        print("That person's name is ", self.name)
+
+first = Person('Aidan Banteze')
+# first.name = 'Aidan Banteze'
+print(first.introduce())
+
